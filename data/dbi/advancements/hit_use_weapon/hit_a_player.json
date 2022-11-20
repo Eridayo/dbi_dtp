@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword",
+      "nbt": "{CustomModelData:1}"
+    },
+    "title": {
+      "translate": "KILL THE SURVIVOR"
+    },
+    "description": {
+      "translate": "Hit A Survivor"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "hit_a_player": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "weapon:clean_ur_weapon"
+  }
+}

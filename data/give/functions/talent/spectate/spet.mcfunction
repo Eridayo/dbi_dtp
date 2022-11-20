@@ -1,0 +1,3 @@
+#by Eridayo_
+
+give @s minecraft:warped_fungus_on_a_stick{spet:1,CustomModelData:101,display:{Name:'[{"translate":"spet","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]',Lore:['{"translate": "spet.font", "font": "spet_talent","color": "white","italic":false}','{"translate":"spet.l1","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}','{"translate":"spet.l2","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}','""','""','[{"translate": "spet.st1"}]','[{"translate": "spet.st2"}]','{"translate": "identity","with":[{"translate": "spectate","font": "illageralt","italic": false}],"italic": false}','{"translate": "spet.talent"}']},Unbreakable:1,HideFlags:4} 1

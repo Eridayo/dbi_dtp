@@ -1,0 +1,30 @@
+{
+  "parent": "dbi:trait/excitement",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:104}"
+    },
+    "title": {
+      "translate": "adv.peeper"
+    },
+    "description": {
+      "translate": "adv.peeper.l"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "peeper":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "peeper"
+    ]
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "parent": "dbi:trait/abnormal",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:103}"
+    },
+    "title": {
+      "translate": "adv.excitement"
+    },
+    "description": {
+      "translate": "adv.excitement.l"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "first":
+    {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items":[
+          {
+            "items": [
+              "minecraft:stone_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "second":
+    {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":[
+              "minecraft:stone_axe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "first"
+    ],
+    [
+      "second"
+    ]
+  ]
+}

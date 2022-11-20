@@ -1,0 +1,30 @@
+{
+  "parent": "dbi:trait/peeper",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:105}"
+    },
+    "title": {
+      "translate": "adv.teleport"
+    },
+    "description": {
+      "translate": "adv.teleport.l"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "teleport":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "teleport"
+    ]
+  ]
+}

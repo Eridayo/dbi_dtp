@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:light_blue_dye",
+      "nbt": "{CustomModelData:7}"
+    },
+    "title": {
+      "translate": "adv.makoto.tit"
+    },
+    "description": {
+      "translate": "adv.makoto.story"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/soul_soil.png"
+  },
+  "criteria": {
+    "first_sur":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "first_sur"
+    ]
+  ]
+}

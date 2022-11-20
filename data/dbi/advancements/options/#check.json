@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone"
+        },
+        "title": "Eridayo_",
+        "description": "Eridayo_",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "option.click":{
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items":[]
+            }
+        }
+    },
+    "rewards": {
+        "function": "dbi:_main/option_item_check"
+    }
+}

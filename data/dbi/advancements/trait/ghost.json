@@ -1,0 +1,55 @@
+{
+  "parent": "dbi:trait/incacerate",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:108}"
+    },
+    "title": {
+      "translate": "adv.ghost"
+    },
+    "description": {
+      "translate": "adv.ghost.l"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "first":
+    {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items":[
+          {
+            "items": [
+              "minecraft:iron_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "second":
+    {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items":[
+              "minecraft:iron_axe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "first"
+    ],
+    [
+      "second"
+    ]
+  ]
+}

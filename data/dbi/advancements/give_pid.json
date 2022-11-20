@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:white_dye",
+      "nbt": "{CustomModelData:6}"
+    },
+    "title": {
+      "translate": "adv.first.join.map"
+    },
+    "description": 
+      {
+        "translate": "adv.join.map.lore"
+      },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/soul_soil.png"
+  },
+  "criteria": {
+    "join_map": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "dimension": "minecraft:overworld"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "join_map"
+    ]
+  ],
+  "rewards": {
+    "function": "dbi:give_pid"
+  }
+}

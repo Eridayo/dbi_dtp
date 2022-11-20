@@ -1,0 +1,29 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:102}"
+    },
+    "title": {
+      "translate": "§e新的輔助技能已解鎖!§r\n按下§aL§r進行查看！"
+    },
+    "description": {
+      "translate": ""
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "first_sur":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "first_sur"
+    ]
+  ]
+}

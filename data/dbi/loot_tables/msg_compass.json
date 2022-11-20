@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+      {
+          "rolls": 1,
+          "entries": [
+              {
+                  "type": "minecraft:item",
+                  "name": "minecraft:compass",
+                  "functions":[
+                      {
+                          "function":"minecraft:set_name",
+                          "name": {"translate":"msgcpass","italic":false}
+                      },
+                      {
+                          "function":"minecraft:set_lore",
+                          "lore":[
+                            {"translate": "msgcpass.l1"},
+                            {"translate": "msgcpass.l2"},
+                            " ",
+                            {"translate": "msgcpass.target","with": [{"selector": "@s","color": "white","italic": false}]}],
+                          "entity": "this"
+                      },
+                      {
+                          "function":"minecraft:set_nbt",
+                          "tag": "{msg_compass:1,LodestoneTracked: false,LodestonePos: {X: 0,Y: 0,Z: 0},LodestoneDimension: \"minecraft:overworld\"}"
+                      }
+                  ]
+              }
+          ]
+      }
+   ]
+}

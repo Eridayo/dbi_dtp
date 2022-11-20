@@ -1,0 +1,31 @@
+{
+  "parent": "dbi:bgm/2021ivl_autumn/competitive_spirit",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_strad",
+      "nbt": "{}"
+    },
+    "title": {
+      "translate": "hall.10"
+    },
+    "description": {
+      "translate": "pole.position",
+      "font": "genshin_type"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "teleport":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "teleport"
+    ]
+  ]
+}

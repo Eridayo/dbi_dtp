@@ -1,0 +1,30 @@
+{
+  "parent": "dbi:chr/makoto/2",
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_dye",
+      "nbt": "{CustomModelData:1052}"
+    },
+    "title": {
+      "translate": "adv.mkt.sk2.tit"
+    },
+    "description": {
+      "translate": "adv.mkt.sk2.l"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "first_sur":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "first_sur"
+    ]
+  ]
+}

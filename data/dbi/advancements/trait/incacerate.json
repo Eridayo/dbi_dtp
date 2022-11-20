@@ -1,0 +1,30 @@
+{
+  "parent": "dbi:trait/blink",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:107}"
+    },
+    "title": {
+      "translate": "adv.incacerate"
+    },
+    "description": {
+      "translate": "adv.incacerate.l"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "teleport":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "teleport"
+    ]
+  ]
+}

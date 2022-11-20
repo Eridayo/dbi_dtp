@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_far",
+      "nbt": "{}"
+    },
+    "title": {
+      "translate": "adv.bgm"
+    },
+    "description": [
+      {
+        "translate": "adv.bgm.l"
+      },
+      "\n\n",
+      {
+        "translate": "adv.bgm.l2"
+      }
+  ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/note_block.png"
+  },
+  "criteria": {
+    "root_trait": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "root_trait"
+    ]
+  ]
+}

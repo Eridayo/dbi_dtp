@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:orange_dye",
+      "nbt": "{CustomModelData:-1002}"
+    },
+    "title": {
+      "translate": "adv.trait"
+    },
+    "description": [
+      {
+        "translate": "adv.trait.l",
+        "font": "minecraft:pop"
+      },
+      "\n\n",
+      {
+        "translate": "adv.trait.tut",
+        "font": "minecraft:pop"
+      }
+  ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/netherrack.png"
+  },
+  "criteria": {
+    "root_trait": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "root_trait"
+    ]
+  ]
+}

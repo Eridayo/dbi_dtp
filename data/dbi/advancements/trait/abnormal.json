@@ -1,0 +1,30 @@
+{
+  "parent": "dbi:trait/listen",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:102}"
+    },
+    "title": {
+      "translate": "adv.abnormal"
+    },
+    "description": {
+      "translate": "adv.abnormal.l"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "first_sur":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "first_sur"
+    ]
+  ]
+}

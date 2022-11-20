@@ -1,0 +1,32 @@
+{
+  "parent": "dbi:bgm/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_dye",
+      "nbt": "{CustomModelData:104}"
+    },
+    "title": {
+      "translate": "adv.coa.v"
+    },
+    "description": [
+      {
+        "translate": "adv.coa.v.t"
+      }
+  ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/block/note_block.png"
+  },
+  "criteria": {
+    "root_trait": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "root_trait"
+    ]
+  ]
+}

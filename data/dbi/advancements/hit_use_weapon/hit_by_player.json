@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:redstone"
+    },
+    "title": {
+      "translate": "ESCAPE THE KILLER"
+    },
+    "description": {
+      "translate": "Got hurt by the killer"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false,
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png"
+  },
+  "criteria": {
+    "hit_by_player": {
+      "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+        "damage": {
+          "source_entity": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "weapon:main"
+  }
+}

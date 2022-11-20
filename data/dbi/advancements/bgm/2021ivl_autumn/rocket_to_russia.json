@@ -1,0 +1,31 @@
+{
+  "parent": "dbi:bgm/2021ivl_autumn/rising_drama",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_strad",
+      "nbt": "{}"
+    },
+    "title": {
+      "translate": "hall.3"
+    },
+    "description": {
+      "translate": "rocket.to.russia",
+      "font": "genshin_type"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "teleport":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "teleport"
+    ]
+  ]
+}

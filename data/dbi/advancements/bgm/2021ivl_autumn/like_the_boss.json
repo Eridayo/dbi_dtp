@@ -1,0 +1,31 @@
+{
+  "parent": "dbi:bgm/2021ivl_autumn/bright_summer",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_strad",
+      "nbt": "{}"
+    },
+    "title": {
+      "translate": "hall.6-1"
+    },
+    "description": {
+      "translate": "like.the.boss",
+      "font": "genshin_type"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "teleport":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "teleport"
+    ]
+  ]
+}

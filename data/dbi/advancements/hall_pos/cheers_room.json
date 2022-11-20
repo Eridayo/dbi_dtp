@@ -1,0 +1,30 @@
+{
+  "parent": "dbi:hall_pos/ranking_room",
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_door",
+      "nbt": "{}"
+    },
+    "title": {
+      "translate": "hall.3"
+    },
+    "description": "",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "root_trait": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "root_trait"
+    ]
+  ],
+  "rewards": {
+    "function": "hall:cheers"
+  }
+}

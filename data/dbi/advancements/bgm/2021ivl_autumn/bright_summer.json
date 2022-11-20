@@ -1,0 +1,31 @@
+{
+  "parent": "dbi:bgm/2021ivl_autumn/rocket_to_russia",
+  "display": {
+    "icon": {
+      "item": "minecraft:music_disc_strad",
+      "nbt": "{}"
+    },
+    "title": {
+      "translate": "hall.4+5"
+    },
+    "description": {
+      "translate": "bright.summer",
+      "font": "genshin_type"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "teleport":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "teleport"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blue_dye",
+      "nbt": "{CustomModelData:1}"
+    },
+    "title": {
+      "translate": "adv.unlock.chr",
+      "with" : [{"translate": "chr.seer","with":[{"text": "2","font": "team_logo"}]},{"text": "l","font": "keybind","color": "gold"}]
+    },
+    "description": {
+      "translate": ""
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "first_sur":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "first_sur"
+    ]
+  ]
+}

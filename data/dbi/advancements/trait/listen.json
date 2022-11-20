@@ -1,0 +1,37 @@
+{
+  "parent": "dbi:trait/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:101}"
+    },
+    "title": {
+      "translate": "adv.listen"
+    },
+    "description": [
+      {
+        "translate": "adv.listen.l",
+        "font": "minecraft:pop"
+      },
+      "\n\n",
+      {
+        "translate": "adv.listen.target",
+        "font": "minecraft:pop"
+      }
+    ],
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "listen": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "listen"
+    ]
+  ]
+}

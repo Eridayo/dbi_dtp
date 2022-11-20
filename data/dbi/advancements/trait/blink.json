@@ -1,0 +1,30 @@
+{
+  "parent": "dbi:trait/teleport",
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:106}"
+    },
+    "title": {
+      "translate": "adv.blink"
+    },
+    "description": {
+      "translate": "adv.blink.l"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "teleport":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "teleport"
+    ]
+  ]
+}
