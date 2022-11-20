@@ -9,3 +9,5 @@ execute if score @s[tag=kunai] lt >= @s lt.max run function dbi:_main/void
 execute if score @s[tag=suriken] lt >= @s lt.max run function dbi:_main/void
 
 execute if score @s[tag=head_b] lt >= @s lt.max run function dbi:_main/void
+
+execute if score @s[tag=icu] lt >= @s lt.max run function dbi:_main/void

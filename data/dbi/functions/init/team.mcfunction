@@ -86,3 +86,7 @@ team add gate_normal
 ##Dungeon
 team add dg_open
 team add dg_lock
+
+##icu
+team add icu
+team modify icu color gold

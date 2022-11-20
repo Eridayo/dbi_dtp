@@ -7,3 +7,5 @@ execute if entity @s[tag=kunai] run scoreboard players operation @s lt.max = #ku
 execute if entity @s[tag=suriken] run scoreboard players operation @s lt.max = #suriken lt.max
 
 execute if entity @s[tag=head_b] run scoreboard players operation @s lt.max = #head_b lt.max
+
+execute if entity @s[tag=icu] run scoreboard players operation @s lt.max = #icu lt.max
