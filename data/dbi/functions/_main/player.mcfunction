@@ -47,6 +47,9 @@ execute if score @s suriken.cd matches 1.. unless score @s srk.st.delay matches 
 execute if score @s ninki.type matches 2 unless score @s srk.st.delay matches 1.. if score @s suriken.cd matches 1.. run function move:ninki/suriken/reset_cd
 execute if score @s ninki.type matches 1 if score @s kunai.cd matches 1.. run function move:ninki/kunai/reset_cd
 
+execute if score @s icu matches 1.. run scoreboard players remove @s icu 1
+execute if score @s icu matches 1 run function dbi:_sys/i_c_u/reset_color
+
 ##EXP
 #scoreboard players operation -tick tick /= +100 const
 #scoreboard players operation @s xp = -tick tick

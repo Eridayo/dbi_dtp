@@ -106,6 +106,9 @@ scoreboard objectives add pro.conv dummy "Progress Convert"
 scoreboard objectives add pro.speed dummy "Interact Speed"
 scoreboard objectives add pro.dis dummy "Progress Display"
 
+#ICU
+scoreboard objectives add icu dummy 
+
 
 
 ##Const
