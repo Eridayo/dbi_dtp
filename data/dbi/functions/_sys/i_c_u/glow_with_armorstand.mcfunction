@@ -6,5 +6,4 @@ summon armor_stand ~ ~ ~ {Invisible:true,Glowing:true,ArmorItems:[{},{},{},{"id"
 
 execute anchored eyes run tp @e[tag=icu,tag=summon,sort=nearest,limit=1] ~ ~ ~ ~ ~
 execute as @e[tag=icu,tag=summon] run function dbi:_sys/i_c_u/armorstand_setting
-execute as @e[tag=icu,tag=summon] run function dbi:_main/lt_max
 tag @e[tag=summon,tag=icu] remove summon
