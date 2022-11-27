@@ -1,3 +1,3 @@
 #by Eridayo_
 
-give @s minecraft:warped_fungus_on_a_stick{peeper:1,CustomModelData:1,display:{Name:'[{"translate":"trait","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}," - ",{"translate":"peeper","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]',Lore:['{"translate":"listen.lore1","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}','{"translate":"listen.lore2","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}','""','{"translate": "charge.peeper","with":[{"text": "§635s"}]}']},Unbreakable:1,HideFlags:4} 1
+give @s minecraft:carrot_on_a_stick{peeper:1,CustomModelData:1,display:{Name:'[{"translate":"peeper","bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false}]',Lore:[]},Unbreakable:1,HideFlags:4} 1
