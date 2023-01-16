@@ -1,15 +1,15 @@
 {
-  "parent": "dbi:chr/makoto/telent",
+  "parent": "dbi:chr/makoto/1",
   "display": {
     "icon": {
-      "item": "minecraft:pink_dye",
-      "nbt": "{CustomModelData:1051}"
+      "item": "minecraft:light_blue_dye",
+      "nbt": "{CustomModelData:7}"
     },
     "title": {
-      "translate": "adv.mkt.sk1.tit"
+      "translate": "adv.saino"
     },
     "description": {
-      "translate": "adv.mkt.sk1.l"
+      "translate": "adv.makoto.telent"
     },
     "frame": "task",
     "show_toast": true,
