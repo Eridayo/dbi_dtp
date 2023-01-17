@@ -1,18 +1,20 @@
 {
+  "parent": "dbi:chr/kyoko/1",
   "display": {
     "icon": {
-      "item": "minecraft:light_blue_dye",
-      "nbt": "{CustomModelData:7}"
+      "item": "minecraft:pink_dye",
+      "nbt": "{CustomModelData:1055}"
     },
-    "title": ["",{"translate": "adv.makoto.tit"},{"text": "2","font": "adv_team_logo"}],
+    "title": {
+      "translate": "adv.kyk.sk6.tit"
+    },
     "description": {
-      "translate": "adv.makoto.story"
+      "translate": "adv.kyk.sk6.l"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
-    "hidden": false,
-    "background": "minecraft:textures/block/soul_soil.png"
+    "hidden": true
   },
   "criteria": {
     "first_sur":

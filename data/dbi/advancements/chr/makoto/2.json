@@ -1,5 +1,5 @@
 {
-  "parent": "dbi:chr/makoto/telent",
+  "parent": "dbi:chr/makoto/talent",
   "display": {
     "icon": {
       "item": "minecraft:pink_dye",

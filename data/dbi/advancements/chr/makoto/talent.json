@@ -1,18 +1,20 @@
 {
+  "parent": "dbi:chr/makoto/1",
   "display": {
     "icon": {
       "item": "minecraft:light_blue_dye",
       "nbt": "{CustomModelData:7}"
     },
-    "title": ["",{"translate": "adv.makoto.tit"},{"text": "2","font": "adv_team_logo"}],
+    "title": {
+      "translate": "adv.saino"
+    },
     "description": {
-      "translate": "adv.makoto.story"
+      "translate": "adv.makoto.talent"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
-    "hidden": false,
-    "background": "minecraft:textures/block/soul_soil.png"
+    "hidden": false
   },
   "criteria": {
     "first_sur":

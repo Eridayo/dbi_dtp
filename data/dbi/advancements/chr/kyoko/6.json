@@ -1,0 +1,28 @@
+{
+  "parent": "dbi:chr/kyoko/5",
+  "display": {
+    "icon": {
+      "item": "minecraft:pink_dye",
+      "nbt": "{CustomModelData:1055}"
+    },
+    "title": {
+      "translate": "adv.kyk.sk5.tit"
+    },
+    "description": [{"translate": "adv.kyk.sk5.l1"},{"translate": "adv.kyk.sk5.mkt","clickEvent":{"action":"run_command","value":"/function chr:survivor/naegi_makoto"}},{"translate": "adv.kyk.sk5.l2"}],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "first_sur":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "first_sur"
+    ]
+  ]
+}

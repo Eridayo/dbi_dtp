@@ -12,6 +12,7 @@ execute if score @s item.drop.warped matches 1.. run function dbi:interact/drop/
 execute if entity @s[tag=in_game] run function dbi:_main/talent
 
 
+
 #function dbi:_main/xp
 #CD
 execute if score @s ult matches 1.. run scoreboard players remove @s ult 1
