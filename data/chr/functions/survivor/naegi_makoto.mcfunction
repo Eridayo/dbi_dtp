@@ -2,7 +2,9 @@
 
 ##Stats
 #CID:1005
+
 tag @s add select_makoto
+function dbi:chr/clear_adv
 scoreboard players set @s chr 1005
 advancement grant @s only dbi:select_chr/makoto
 tellraw @s {"text": "You choosed a Charactor: [Lucky Guy]!","color": "yellow"}

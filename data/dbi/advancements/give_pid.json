@@ -33,6 +33,6 @@
     ]
   ],
   "rewards": {
-    "function": "dbi:give_pid"
+    "function": "dbi:pid_main"
   }
 }

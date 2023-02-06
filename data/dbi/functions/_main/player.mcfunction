@@ -51,6 +51,8 @@ execute if score @s ninki.type matches 1 if score @s kunai.cd matches 1.. run fu
 execute if score @s icu matches 1.. run scoreboard players remove @s icu 1
 execute if score @s icu matches 1 run function dbi:_sys/i_c_u/reset_color
 
+execute if score @s v_talk matches 1.. run function dbi:_sys/v_talk/check_main
+
 ##EXP
 #scoreboard players operation -tick tick /= +100 const
 #scoreboard players operation @s xp = -tick tick
@@ -61,5 +63,5 @@ execute if score @s icu matches 1 run function dbi:_sys/i_c_u/reset_color
 execute if score @s room matches 0.. run function hall:pos_check
 
 #Effect
-effect give @s minecraft:resistance 87 128 true
+effect give @s minecraft:resistance infinite 128 true
 attribute @s generic.knockback_resistance base set 1.0

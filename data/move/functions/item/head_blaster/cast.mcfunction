@@ -15,7 +15,7 @@ summon minecraft:armor_stand ~ ~1 ~ {Tags:[head_b,_item,flake_head,summon,lt,mov
 summon minecraft:armor_stand ~ ~1 ~ {Tags:[head_b,_item,anthiny_head,summon,lt,move],NoGravity:1b,Invisible:1b,Marker:1b,Invulnerable:1b,Silent:1b,ArmorItems:[{},{},{},{id:"minecraft:light_blue_dye",Count:1,tag:{CustomModelData:2}}],Pose:{Head:[0f,180f,0f]},CustomName:'{"translate":"suriken"}'}
 summon minecraft:armor_stand ~ ~1 ~ {Tags:[head_b,_item,neb_head,summon,lt,move],NoGravity:1b,Invisible:1b,Marker:1b,Invulnerable:1b,Silent:1b,ArmorItems:[{},{},{},{id:"minecraft:light_blue_dye",Count:1,tag:{CustomModelData:2}}],Pose:{Head:[0f,180f,0f]},CustomName:'{"translate":"suriken"}'}
 
-execute as @e[tag=head_b,tag=summon] at @s run scoreboard players operation @s pid = @a[tag=blaster_user] pid 
+execute as @e[tag=head_b,tag=summon] at @s run scoreboard players operation @s _pid = @a[tag=blaster_user] _pid 
 
 execute anchored eyes run tp @e[tag=head_b,tag=summon,sort=nearest,limit=1] ^.5 ^.5 ^.5 ~ ~
 execute anchored eyes run tp @e[tag=head_b,tag=summon,sort=nearest,limit=1] ^-.5 ^-.5 ^.5 ~ ~

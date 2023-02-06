@@ -12,6 +12,10 @@ scoreboard objectives add warped.4tick dummy "WFS 4 Ticks"
 scoreboard objectives add item.drop minecraft.dropped:minecraft.carrot_on_a_stick "Item Drop CS"
 scoreboard objectives add item.drop.warped minecraft.dropped:minecraft.warped_fungus_on_a_stick "Item Drop WFS"
 scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time "SNEAK"
+scoreboard objectives add v_talk minecraft.custom:minecraft.talked_to_villager "Talk To Villager" 
+scoreboard objectives add ray_talk dummy
+scoreboard objectives add item.rotation dummy
+scoreboard objectives add item.rotation.regular dummy
 
 scoreboard objectives add ninki.re dummy
 scoreboard objectives add const dummy "Const"
@@ -26,7 +30,8 @@ scoreboard objectives add bgm.id dummy "BGM ID"
 scoreboard objectives add option.set dummy "OPTION"
 
 #ID
-scoreboard objectives add pid dummy "PID"
+scoreboard objectives add _pid dummy "PID"
+scoreboard objectives add _pid dummy "New Verson of Player ID!"
 scoreboard objectives add tid dummy "TID"
 scoreboard objectives add bid dummy "Bossbar ID"
 scoreboard objectives add stid dummy "Survivor TID"
