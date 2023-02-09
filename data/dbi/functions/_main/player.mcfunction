@@ -7,6 +7,7 @@ execute if score @s carrot.rc matches 1.. run function dbi:interact/rc/carrot_on
 execute if score @s warped.rc matches 1.. run function dbi:interact/rc/warped_fungus_on_a_stick
 execute if score @s item.drop matches 1.. run function dbi:interact/drop/carrot_on_a_stick
 execute if score @s item.drop.warped matches 1.. run function dbi:interact/drop/warped_fungus_on_a_stick
+execute if score @s kill_slime matches 1..
 
 #Talents
 execute if entity @s[tag=in_game] run function dbi:_main/talent

@@ -1,0 +1,29 @@
+{
+  "parent": "dbi:ach/ach",
+  "display": {
+    "icon": {
+      "item": "minecraft:magma_cream"
+    },
+    "title": {
+      "translate": "ach.get.1st.coin"
+    },
+    "description": {
+      "translate": "ach.get.c.l"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "first_sur":
+    {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "first_sur"
+    ]
+  ]
+}

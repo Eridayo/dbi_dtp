@@ -1,7 +1,8 @@
 #by Eridayo_
 
-setblock ~ ~ ~ air
-data merge entity @s {Item:{id:"air"}}
-execute if entity @s run tellraw @a "Somebody get 10 Monokuma Coins!"
+execute on attacker run function dbi:_sys/monokuma_coin/get_coin
+particle minecraft:totem_of_undying ~ ~ ~ 0.15 0.5 0.15 0 100 normal
+execute as @e[tag=monocoin,distance=..0] run function dbi:_main/void
+
 
 

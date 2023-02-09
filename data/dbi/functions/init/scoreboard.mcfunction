@@ -16,6 +16,8 @@ scoreboard objectives add v_talk minecraft.custom:minecraft.talked_to_villager "
 scoreboard objectives add ray_talk dummy
 scoreboard objectives add item.rotation dummy
 scoreboard objectives add item.rotation.regular dummy
+scoreboard objectives add killed_slime minecraft.killed:minecraft.slime ""
+scoreboard objectives add slime_hp dummy ""
 
 scoreboard objectives add ninki.re dummy
 scoreboard objectives add const dummy "Const"
